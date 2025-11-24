@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "GameInputAction",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "c01077d0-d763-4a41-b0fb-b8d8310c154e",
+            "actions": [
+                {
+                    "name": "PlatformMove",
+                    "type": "Value",
+                    "id": "8b6cdd27-93d2-464f-94cb-dfc01be71773",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b44a2b17-3927-460a-befb-dde792e4637e",
+                    "path": "<Touchscreen>/primaryTouch/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PlatformMove",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
