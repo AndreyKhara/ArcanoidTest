@@ -20,6 +20,6 @@ public class ExplosionBlock : AbstractBlock
                 block.Death();
             }
         }
-        Death();
+        //Death();
     }
 }

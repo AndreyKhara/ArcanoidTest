@@ -18,16 +18,19 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        AddScore(0);
+        //AddScore(0);
         Time.timeScale = 0f;
+        Debug.Log(blockCount);
     }
     public void AddBlock()
     {
         blockCount++;
+        Debug.Log(blockCount);
     }
     private void DestroyBlock()
     {
         blockCount--;
+        Debug.Log(blockCount);
         if (blockCount == 0)
         {
             EndGame(true);

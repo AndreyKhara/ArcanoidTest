@@ -13,6 +13,7 @@ public abstract class AbstractBlock : MonoBehaviour, IBlock
     protected void Awake()
     {
         gameManager.AddBlock();
+        Debug.Log("AddBlock");
     }
     public virtual void TakeDamage()
     {
